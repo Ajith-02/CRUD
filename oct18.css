@@ -1,0 +1,47 @@
+.user-container{
+    background-color: beige;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem; /*to make-space-between img and username */
+    transition: all 0.2s; 
+}
+
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    min-height: 100vh;
+}
+
+.user-avatar{
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+
+}
+
+.user-name{
+    font-size: 1.4rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.user-container:hover{
+     transform: scale(1.1);
+     box-shadow: 3px 5px 134px -58px rgba(0,0,0,0.85);
+     -webkit-box-shadow: 3px 5px 134px -58px rgba(0,0,0,0.85);
+     -moz-box-shadow: 3px 5px 134px -58px rgba(0,0,0,0.85);
+}
+
+.user-container:hover .user-name{
+      color: crimson;
+}
+
+.user-form{
+    margin: 2rem;
+
+}
+
+.edit-user-form{
+    display: none;
+}
